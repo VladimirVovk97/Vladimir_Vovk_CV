@@ -1,5 +1,9 @@
 .container {
   width: 1200px;
+  height: 1760px;
+  display: flex;
+  // flex-direction: row-reverse;
+  background-color: #fff;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
