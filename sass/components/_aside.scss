@@ -1,0 +1,36 @@
+.aside-section {
+  background-color: $second-bg-color;
+  width: 450px;
+  padding: 40px 0 10px 0;
+}
+
+.photo {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.contacts {
+  margin: 50px 40px 0 40px;
+}
+
+.contacts-heading {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 27px;
+  color: $accent-color;
+}
+
+.aside-section__link {
+  color: $second-text-color;
+  font-size: 15px;
+  line-height: 0.03em;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 20px;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
