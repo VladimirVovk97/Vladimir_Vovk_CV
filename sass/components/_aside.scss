@@ -11,19 +11,18 @@
 }
 
 .contacts {
-  margin: 50px 40px 0 40px;
+  margin: 50px 40px 50px 40px;
 }
 
 .contacts-heading {
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   line-height: 27px;
   color: $accent-color;
 }
 
 .contacts-section__link {
-  // position: absolute;
   display: flex;
   align-items: center;
   color: $second-text-color;
@@ -39,10 +38,31 @@
 }
 
 .contacts-icons {
-  // position: relative;
   bottom: 2px;
-  margin-right: 5px;
+  margin-right: 10px;
   width: 20px;
   height: 20px;
   fill: #f8bf02f5;
+}
+
+.skills {
+  margin: 50px 40px 0px 40px;
+}
+
+.skills-heading {
+  color: $accent-color;
+}
+
+.skills-list {
+  margin-left: 10px;
+}
+
+.skills-list__item {
+  color: $accent-color;
+  margin-left: 12px;
+  margin-bottom: 8px;
+}
+
+.skills-list__item--text {
+  color: $second-text-color;
 }
