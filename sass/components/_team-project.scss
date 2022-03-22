@@ -1,15 +1,9 @@
-.my-project__heading {
-  font-size: 35px;
-  font-weight: bold;
-  margin: 25px 0 25px 0;
-}
-
-.my-project__title {
+.team-project__title {
   font-size: 17px;
   font-weight: bold;
 }
 
-.my-project__text {
+.team-project__text {
   color: $accent-color;
   font-size: 17px;
   display: inline-block;
@@ -18,18 +12,23 @@
   line-height: 24px;
 }
 
-.my-project__period {
+.team-project__link {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.team-project__period {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px;
   color: $third-text-color;
 }
 
-.my-project__list {
+.team-project__list {
   padding-left: 20px;
 }
 
-.my-project__list--text {
+.team-project__list--text {
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -41,7 +40,7 @@
   }
 }
 
-.my-project__list--link {
+.team-project__list--link {
   text-decoration: underline;
   display: inline-block;
 }
