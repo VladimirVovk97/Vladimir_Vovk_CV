@@ -324,21 +324,21 @@ body {
   margin: 25px 0 10px 0;
 }
 
-.education__place {
+.my-education__place {
   font-size: 17px;
   font-weight: bold;
   color: #f8bf02f5;
   margin-bottom: 10px;
 }
 
-.education__speciality {
+.my-education__speciality {
   font-size: 15px;
   line-height: 20px;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-.education__period {
+.my-education__period {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px;
