@@ -4,12 +4,12 @@
   margin: 25px 0 25px 0;
 }
 
-.my-project__title {
+.my-project__block--title {
   font-size: 17px;
   font-weight: bold;
 }
 
-.my-project__text {
+.my-project__block--text {
   color: $accent-color;
   font-size: 17px;
   display: inline-block;
@@ -18,7 +18,7 @@
   line-height: 24px;
 }
 
-.my-project__period {
+.my-project__block--period {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -35,10 +35,6 @@
   letter-spacing: 0.03em;
   line-height: 24px;
   color: $primary-text-color;
-
-  &:last-child {
-    margin-bottom: 15px;
-  }
 }
 
 .my-project__list--link {
