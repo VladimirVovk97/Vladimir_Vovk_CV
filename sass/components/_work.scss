@@ -1,35 +1,33 @@
-.my-project__heading {
+.my-work__title {
   font-size: 35px;
   font-weight: bold;
-  margin: 25px 0 25px 0;
+  margin: 25px 0 10px 0;
 }
 
-.my-project__title {
+.my-work__specialization {
   font-size: 17px;
   font-weight: bold;
 }
 
-.my-project__text {
-  color: $accent-color;
-  font-size: 17px;
+.my-work__link {
   display: inline-block;
-  text-decoration: underline;
+  color: $accent-color;
   margin-left: 5px;
-  line-height: 24px;
+  text-decoration: underline;
 }
 
-.my-project__period {
+.my-work__description {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px;
   color: $third-text-color;
 }
 
-.my-project__list {
+.my-work__list {
   padding-left: 20px;
 }
 
-.my-project__list--text {
+.my-work__list--item {
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -39,9 +37,4 @@
   &:last-child {
     margin-bottom: 15px;
   }
-}
-
-.my-project__list--link {
-  text-decoration: underline;
-  display: inline-block;
 }
