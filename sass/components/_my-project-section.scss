@@ -42,7 +42,17 @@
   }
 }
 
-.my-project__list--link {
+.my-project__link--first{
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.my-project__link--second {
+  color: $third-text-color;
   text-decoration: underline;
   display: inline-block;
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 400;
 }
+

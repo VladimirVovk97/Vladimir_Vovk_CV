@@ -41,7 +41,11 @@
   }
 }
 
-.team-project__list--link {
+.team-project__second-link {
+  color: $third-text-color;
   text-decoration: underline;
   display: inline-block;
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 400;
 }

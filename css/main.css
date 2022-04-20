@@ -226,9 +226,18 @@ body {
   margin-bottom: 15px;
 }
 
-.my-project__list--link {
+.my-project__link--first {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.my-project__link--second {
+  color: #757575;
   text-decoration: underline;
   display: inline-block;
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .team-project__title {
@@ -274,9 +283,13 @@ body {
   margin-bottom: 15px;
 }
 
-.team-project__list--link {
+.team-project__second-link {
+  color: #757575;
   text-decoration: underline;
   display: inline-block;
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .my-work__title {
